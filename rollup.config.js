@@ -1,4 +1,4 @@
-import resolve from 'rollup-plugin-node-resolve'
+import { nodeResolve } from '@rollup/plugin-node-resolve'
 import babel from '@rollup/plugin-babel'
 import sourcemaps from 'rollup-plugin-sourcemaps'
 import { terser } from 'rollup-plugin-terser'
@@ -27,7 +27,7 @@ export default {
   ],
   plugins: [
     sourcemaps(),
-    resolve(),
+    nodeResolve(),
     babel({
       exclude: 'node_modules/**'
     }),
