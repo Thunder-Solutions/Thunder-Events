@@ -1,5 +1,9 @@
 import ThunderEvents from '../esm/thunderEvents.min.mjs'
-import { fetchEvents, fetchFloorPlan } from './mock-api'
+import { fetchEvents, fetchFloorPlan } from './mock-api.js'
+
+console.log(ThunderEvents)
+
+customElements.define('program-guide', ThunderEvents.Components.ProgramGuideNative)
 
 ThunderEvents.fetchGuide(async () => {
   const events = await fetchEvents()
@@ -26,4 +30,4 @@ ThunderEvents.fetchGuide(async () => {
   }
 })
 
-ThunderEvents.getLocations().then(console.log)
+// ThunderEvents.getLocations().then(console.log)

@@ -1,6 +1,7 @@
-export {
-  fetchGuide,
-  getEvents,
-  getFloorPlan,
-  getLocations,
-} from '../lib/exports'
+import * as Exports from '../lib/exports'
+import * as Components from '../lib/uiComponents'
+
+export default {
+  ...Exports,
+  Components,
+}

@@ -5,7 +5,7 @@
   "main": "dist/thunderEvents.min.js",
   "module": "esm/thunderEvents.min.mjs",
   "scripts": {
-    "build": "rollup --config",
+    "build": "rollup --config --exports default",
     "start": "node demoServer.js"
   },
   "repository": {
