@@ -34,4 +34,4 @@ Read more in the [documentation](https://github.com/thunder-solutions/thunder-ev
 
 ## License
 
-MIT © 2020 Jonathan DeWitt
+MIT © 2022 Jonathan DeWitt
