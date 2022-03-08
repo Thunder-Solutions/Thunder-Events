@@ -12,6 +12,7 @@ ThunderEvents.fetchGuide(async () => {
       location: event.room,
       start: event.beginTime,
       end: event.endTime,
+      description: event.description,
     })),
     floorPlan: {
       title: 'Demo Inn',
