@@ -15,7 +15,7 @@ export const fetchEvents = () => Promise.resolve([
   },
   {
     beginTime: new Date('1/1/2023 1:00 PM'),
-    endTime: new Date('1/1/2023 1:20 PM'),
+    endTime: new Date('1/1/2023 1:15 PM'),
     room: 'Panel Room',
     title: 'How To Run a Panel',
     description: 'Everyone starts somewhere.  Come learn how to execute the perfect panel!',
