@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap');
+
+html { font-size: 10px; }
+body { font-size: 1.6rem; }
+
+.demo-title {
+  font-family: Fredoka, sans-serif;
+}
+
+.toggler {
+  display: block;
+  padding-bottom: 2rem;
+  font-family: Fredoka, sans-serif;
+}
+
+.theme {
+  font-family: Fredoka, sans-serif;
+  --color-primary: #a6b8c5;
+  --color-secondary: #474655;
+  --color-tertiary: #242126;
+}

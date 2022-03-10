@@ -7,9 +7,24 @@
 </head>
 
 <body>
-  <h1>Events Demo</h1>
-  <program-guide></program-guide>
+  <h1 class="demo-title">Events Demo</h1>
+  <label class="toggler">
+    <input type="checkbox" class="js-toggle-styles" /> Toggle Custom Styles
+  </label>
+
+  <!-- demo component usage -->
+  <program-guide class="demo-component"></program-guide>
+
   <script src="/demo/demo.js" type="module"></script>
+  <script>
+    const toggleEl = document.querySelector('.js-toggle-styles')
+    const componentEl = document.querySelector('.demo-component')
+    toggleEl.addEventListener('change', event => {
+      const toggle = event.target.checked
+      const addOrRemove = toggle ? 'add' : 'remove'
+      componentEl.classList[addOrRemove]('theme')
+    })
+  </script>
 </body>
 
 </html>
