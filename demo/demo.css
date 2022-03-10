@@ -8,13 +8,14 @@ body { font-size: 1.6rem; }
 }
 
 .toggler {
-  display: block;
+  display: inline-block;
   padding-bottom: 2rem;
   font-family: Fredoka, sans-serif;
+  user-select: none;
 }
 
 .theme {
-  font-family: Fredoka, sans-serif;
+  --font: Fredoka, sans-serif;
   --color-primary: #a6b8c5;
   --color-secondary: #474655;
   --color-tertiary: #242126;

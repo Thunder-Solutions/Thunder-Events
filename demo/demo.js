@@ -14,6 +14,8 @@ ThunderEvents.init(async () => {
         start: event.beginTime,
         end: event.endTime,
         description: event.description,
+        host: event.hostedBy,
+        category: event.cat,
       })),
       floorPlan: {
         title: 'Demo Inn',
