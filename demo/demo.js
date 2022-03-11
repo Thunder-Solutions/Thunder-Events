@@ -24,7 +24,7 @@ ThunderEvents.init(async () => {
           {
             shape: 'rect',
             coords: [0, 0, 800, 689],
-            href: 'https://www.lakeside-inn.com/images/floorplans/lakeside-floorplans-all.jpg',
+            href: '#View-Location-Panel-Room',
             alt: 'See full map',
           },
         ],
