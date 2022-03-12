@@ -20,12 +20,22 @@ ThunderEvents.init(async () => {
       floorPlan: {
         title: 'Demo Inn',
         imageSrc,
+        dimensions: {
+          height: 689,
+          width: 800,
+        },
         clickableAreas: [
           {
             shape: 'rect',
-            coords: [0, 0, 800, 689],
+            coords: [20, 20, 227, 337],
+            href: '#View-Location-Main-Events',
+            alt: 'Main Events',
+          },
+          {
+            shape: 'rect',
+            coords: [227, 86, 376, 288],
             href: '#View-Location-Panel-Room',
-            alt: 'See full map',
+            alt: 'Panel Room',
           },
         ],
       },
