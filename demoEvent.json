@@ -1,5 +1,6 @@
 {
   "guide": {
+    "rollOverTime": "2:00 AM",
     "floorPlan": {
       "title": "Demo Inn",
       "imageSrc": "/fake-venue.jpg",
@@ -139,7 +140,7 @@
         "name": "Featured Act 4",
         "location": "Main Events",
         "start": "1/7/2023 8:00 PM",
-        "end": "1/7/2023 11:00 PM",
+        "end": "1/8/2023 2:00 AM",
         "description": "This is the description text for Featured Act 4.",
         "host": "Joe Schmoe",
         "category": "Featured Event"
