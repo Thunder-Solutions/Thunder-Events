@@ -94,6 +94,19 @@
         }
       ]
     },
+    "locations": [
+      "Main Events",
+      "Panel 1",
+      "Panel 2",
+      "Panel 3",
+      "Panel 4",
+      "Panel 5",
+      "Panel 6",
+      "Video 1",
+      "Video 2",
+      "Video 3",
+      "Meet Ups"
+    ], 
     "events": [
       {
         "name": "Featured Act 1",
