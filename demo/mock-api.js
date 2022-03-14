@@ -63,8 +63,8 @@ export const fetchEvents = () => Promise.resolve([
     cat: 'Panel',
   },
   {
-    beginTime: new Date('1/2/2023 1:00 PM'),
-    endTime: new Date('1/2/2023 1:45 PM'),
+    beginTime: new Date('1/3/2023 1:00 PM'),
+    endTime: new Date('1/3/2023 1:45 PM'),
     room: 'Main Events',
     title: 'Closing Ceremony',
     description: 'We promise to send you off with confidence in our next event, with an open Q&A at the end.',
