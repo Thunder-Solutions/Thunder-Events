@@ -17,5 +17,3 @@ ThunderEvents.init(async () => {
     }
   }
 })
-
-ThunderEvents.getTimes().then(console.log)

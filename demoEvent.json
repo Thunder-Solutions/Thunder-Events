@@ -17,13 +17,6 @@
           "alt": "Main Events"
         },
         {
-          "location": "Dealer's Hall",
-          "shape": "rect",
-          "coords": [400, 355, 787, 650],
-          "href": "#View-Location-Dealers-Hall",
-          "alt": "Dealer's Hall"
-        },
-        {
           "location": "Panel 1",
           "shape": "rect",
           "coords": [13, 1012, 152, 1118],
