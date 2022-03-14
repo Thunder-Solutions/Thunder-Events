@@ -1,0 +1,613 @@
+{
+  "guide": {
+    "floorPlan": {
+      "title": "Demo Inn",
+      "imageSrc": "/fake-venue.jpg",
+      "dimensions": {
+        "height": 1342,
+        "width": 800
+      },
+      "clickableAreas": [
+        {
+          "location": "Main Events",
+          "shape": "rect",
+          "coords": [13, 355, 400, 650],
+          "href": "#View-Location-Main-Events",
+          "alt": "Main Events"
+        },
+        {
+          "location": "Dealer's Hall",
+          "shape": "rect",
+          "coords": [400, 355, 787, 650],
+          "href": "#View-Location-Dealers-Hall",
+          "alt": "Dealer's Hall"
+        },
+        {
+          "location": "Panel 1",
+          "shape": "rect",
+          "coords": [13, 1012, 152, 1118],
+          "href": "#View-Location-Panel-1",
+          "alt": "Panel 1"
+        },
+        {
+          "location": "Panel 3",
+          "shape": "rect",
+          "coords": [13, 1118, 152, 1228],
+          "href": "#View-Location-Panel-3",
+          "alt": "Panel 3"
+        },
+        {
+          "location": "Panel 5",
+          "shape": "rect",
+          "coords": [13, 1228, 152, 1330],
+          "href": "#View-Location-Panel-5",
+          "alt": "Panel 5"
+        },
+        {
+          "location": "Panel 2",
+          "shape": "rect",
+          "coords": [213, 1012, 355, 1118],
+          "href": "#View-Location-Panel-2",
+          "alt": "Panel 2"
+        },
+        {
+          "location": "Panel 4",
+          "shape": "rect",
+          "coords": [213, 1118, 355, 1228],
+          "href": "#View-Location-Panel-4",
+          "alt": "Panel 4"
+        },
+        {
+          "location": "Panel 6",
+          "shape": "rect",
+          "coords": [213, 1228, 355, 1330],
+          "href": "#View-Location-Panel-6",
+          "alt": "Panel 6"
+        },
+        {
+          "location": "Video 1",
+          "shape": "rect",
+          "coords": [460, 1012, 598, 1118],
+          "href": "#View-Location-Video-1",
+          "alt": "Video 1"
+        },
+        {
+          "location": "Video 2",
+          "shape": "rect",
+          "coords": [460, 1118, 598, 1228],
+          "href": "#View-Location-Video-2",
+          "alt": "Video 2"
+        },
+        {
+          "location": "Video 3",
+          "shape": "rect",
+          "coords": [460, 1228, 598, 1330],
+          "href": "#View-Location-Video-3",
+          "alt": "Video 3"
+        },
+        {
+          "location": "Meet Ups",
+          "shape": "rect",
+          "coords": [650, 1012, 789, 1118],
+          "href": "#View-Location-Meet-Ups",
+          "alt": "Meet Ups"
+        }
+      ]
+    },
+    "events": [
+      {
+        "name": "Featured Act 1",
+        "location": "Main Events",
+        "start": "1/6/2023 2:00 PM",
+        "end": "1/6/2023 6:00 PM",
+        "description": "This is the description text for Featured Act 1.",
+        "host": "Joe Schmoe",
+        "category": "Featured Event"
+      },
+      {
+        "name": "Featured Act 2",
+        "location": "Main Events",
+        "start": "1/6/2023 7:00 PM",
+        "end": "1/6/2023 11:00 PM",
+        "description": "This is the description text for Featured Act 2.",
+        "host": "Joe Schmoe",
+        "category": "Featured Event"
+      },
+      {
+        "name": "Featured Act 3",
+        "location": "Main Events",
+        "start": "1/7/2023 4:00 PM",
+        "end": "1/7/2023 7:00 PM",
+        "description": "This is the description text for Featured Act 3.",
+        "host": "Joe Schmoe",
+        "category": "Featured Event"
+      },
+      {
+        "name": "Featured Act 4",
+        "location": "Main Events",
+        "start": "1/7/2023 8:00 PM",
+        "end": "1/7/2023 11:00 PM",
+        "description": "This is the description text for Featured Act 4.",
+        "host": "Joe Schmoe",
+        "category": "Featured Event"
+      },
+      {
+        "name": "Content 1",
+        "location": "Panel 1",
+        "start": "1/6/2023 3:00 PM",
+        "end": "1/6/2023 4:00 PM",
+        "description": "This is the description text for Content 1.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 2",
+        "location": "Panel 1",
+        "start": "1/6/2023 4:30 PM",
+        "end": "1/6/2023 5:30 PM",
+        "description": "This is the description text for Content 2.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 3",
+        "location": "Panel 1",
+        "start": "1/6/2023 6:00 PM",
+        "end": "1/6/2023 7:00 PM",
+        "description": "This is the description text for Content 3.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 4",
+        "location": "Panel 1",
+        "start": "1/6/2023 7:30 PM",
+        "end": "1/6/2023 8:30 PM",
+        "description": "This is the description text for Content 4.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 5",
+        "location": "Panel 2",
+        "start": "1/6/2023 2:00 PM",
+        "end": "1/6/2023 3:00 PM",
+        "description": "This is the description text for Content 5.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 6",
+        "location": "Panel 2",
+        "start": "1/6/2023 3:30 PM",
+        "end": "1/6/2023 4:30 PM",
+        "description": "This is the description text for Content 6.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 7",
+        "location": "Panel 2",
+        "start": "1/6/2023 5:00 PM",
+        "end": "1/6/2023 6:00 PM",
+        "description": "This is the description text for Content 7.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 8",
+        "location": "Panel 2",
+        "start": "1/6/2023 6:30 PM",
+        "end": "1/6/2023 7:30 PM",
+        "description": "This is the description text for Content 8.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 9",
+        "location": "Panel 3",
+        "start": "1/6/2023 3:00 PM",
+        "end": "1/6/2023 4:00 PM",
+        "description": "This is the description text for Content 9.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 10",
+        "location": "Panel 3",
+        "start": "1/6/2023 4:30 PM",
+        "end": "1/6/2023 5:30 PM",
+        "description": "This is the description text for Content 10.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 11",
+        "location": "Panel 3",
+        "start": "1/6/2023 6:00 PM",
+        "end": "1/6/2023 7:00 PM",
+        "description": "This is the description text for Content 11.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 12",
+        "location": "Panel 3",
+        "start": "1/6/2023 7:30 PM",
+        "end": "1/6/2023 8:30 PM",
+        "description": "This is the description text for Content 12.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Entertainment 1",
+        "location": "Video 1",
+        "start": "1/6/2023 3:00 PM",
+        "end": "1/6/2023 5:00 PM",
+        "description": "This is the description text for Entertainment 1.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 2",
+        "location": "Video 1",
+        "start": "1/6/2023 5:30 PM",
+        "end": "1/6/2023 7:30 PM",
+        "description": "This is the description text for Entertainment 2.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 3",
+        "location": "Video 2",
+        "start": "1/6/2023 3:30 PM",
+        "end": "1/6/2023 5:30 PM",
+        "description": "This is the description text for Entertainment 3.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 4",
+        "location": "Video 2",
+        "start": "1/6/2023 6:00 PM",
+        "end": "1/6/2023 8:30 PM",
+        "description": "This is the description text for Entertainment 4.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 5",
+        "location": "Video 3",
+        "start": "1/6/2023 2:30 PM",
+        "end": "1/6/2023 4:30 PM",
+        "description": "This is the description text for Entertainment 5.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 6",
+        "location": "Video 3",
+        "start": "1/6/2023 5:30 PM",
+        "end": "1/6/2023 8:30 PM",
+        "description": "This is the description text for Entertainment 6.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Meet and Greet 1",
+        "location": "Meet Ups",
+        "start": "1/6/2023 2:30 PM",
+        "end": "1/6/2023 6:30 PM",
+        "description": "This is the description text for Meet and Greet 1.",
+        "host": "Joe Schmoe",
+        "category": "Meet Up"
+      },
+      {
+        "name": "Content 13",
+        "location": "Panel 1",
+        "start": "1/7/2023 11:00 AM",
+        "end": "1/7/2023 12:00 PM",
+        "description": "This is the description text for Content 13.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 14",
+        "location": "Panel 1",
+        "start": "1/7/2023 12:30 PM",
+        "end": "1/7/2023 1:30 PM",
+        "description": "This is the description text for Content 14.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 15",
+        "location": "Panel 1",
+        "start": "1/7/2023 2:00 PM",
+        "end": "1/7/2023 2:30 PM",
+        "description": "This is the description text for Content 15.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 16",
+        "location": "Panel 1",
+        "start": "1/7/2023 3:00 PM",
+        "end": "1/7/2023 4:00 PM",
+        "description": "This is the description text for Content 16.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 17",
+        "location": "Panel 1",
+        "start": "1/7/2023 4:30 PM",
+        "end": "1/7/2023 5:30 PM",
+        "description": "This is the description text for Content 17.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 18",
+        "location": "Panel 1",
+        "start": "1/7/2023 6:00 PM",
+        "end": "1/7/2023 7:00 PM",
+        "description": "This is the description text for Content 18.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 19",
+        "location": "Panel 1",
+        "start": "1/7/2023 7:30 PM",
+        "end": "1/7/2023 8:30 PM",
+        "description": "This is the description text for Content 19.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 20",
+        "location": "Panel 2",
+        "start": "1/7/2023 2:00 PM",
+        "end": "1/7/2023 3:00 PM",
+        "description": "This is the description text for Content 20.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 21",
+        "location": "Panel 2",
+        "start": "1/7/2023 3:30 PM",
+        "end": "1/7/2023 4:30 PM",
+        "description": "This is the description text for Content 21.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 22",
+        "location": "Panel 2",
+        "start": "1/7/2023 5:00 PM",
+        "end": "1/7/2023 6:00 PM",
+        "description": "This is the description text for Content 22.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 23",
+        "location": "Panel 2",
+        "start": "1/7/2023 6:30 PM",
+        "end": "1/7/2023 7:30 PM",
+        "description": "This is the description text for Content 23.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 24",
+        "location": "Panel 3",
+        "start": "1/7/2023 3:00 PM",
+        "end": "1/7/2023 4:00 PM",
+        "description": "This is the description text for Content 24.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 25",
+        "location": "Panel 3",
+        "start": "1/7/2023 4:30 PM",
+        "end": "1/7/2023 5:30 PM",
+        "description": "This is the description text for Content 25.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 26",
+        "location": "Panel 3",
+        "start": "1/7/2023 6:00 PM",
+        "end": "1/7/2023 7:00 PM",
+        "description": "This is the description text for Content 26.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 27",
+        "location": "Panel 3",
+        "start": "1/7/2023 7:30 PM",
+        "end": "1/7/2023 8:30 PM",
+        "description": "This is the description text for Content 27.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 28",
+        "location": "Panel 4",
+        "start": "1/7/2023 2:00 PM",
+        "end": "1/7/2023 3:00 PM",
+        "description": "This is the description text for Content 28.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 29",
+        "location": "Panel 4",
+        "start": "1/7/2023 3:30 PM",
+        "end": "1/7/2023 4:30 PM",
+        "description": "This is the description text for Content 29.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 30",
+        "location": "Panel 4",
+        "start": "1/7/2023 5:00 PM",
+        "end": "1/7/2023 6:00 PM",
+        "description": "This is the description text for Content 30.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 31",
+        "location": "Panel 4",
+        "start": "1/7/2023 6:30 PM",
+        "end": "1/7/2023 7:30 PM",
+        "description": "This is the description text for Content 31.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 32",
+        "location": "Panel 5",
+        "start": "1/7/2023 3:00 PM",
+        "end": "1/7/2023 4:00 PM",
+        "description": "This is the description text for Content 32.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 33",
+        "location": "Panel 5",
+        "start": "1/7/2023 4:30 PM",
+        "end": "1/7/2023 5:30 PM",
+        "description": "This is the description text for Content 33.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 34",
+        "location": "Panel 5",
+        "start": "1/7/2023 6:00 PM",
+        "end": "1/7/2023 7:00 PM",
+        "description": "This is the description text for Content 34.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 35",
+        "location": "Panel 5",
+        "start": "1/7/2023 7:30 PM",
+        "end": "1/7/2023 8:30 PM",
+        "description": "This is the description text for Content 35.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 36",
+        "location": "Panel 6",
+        "start": "1/7/2023 2:00 PM",
+        "end": "1/7/2023 3:00 PM",
+        "description": "This is the description text for Content 36.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 37",
+        "location": "Panel 6",
+        "start": "1/7/2023 3:30 PM",
+        "end": "1/7/2023 4:30 PM",
+        "description": "This is the description text for Content 37.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 38",
+        "location": "Panel 6",
+        "start": "1/7/2023 5:00 PM",
+        "end": "1/7/2023 6:00 PM",
+        "description": "This is the description text for Content 38.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Content 39",
+        "location": "Panel 6",
+        "start": "1/7/2023 6:30 PM",
+        "end": "1/7/2023 7:30 PM",
+        "description": "This is the description text for Content 39.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
+        "name": "Entertainment 7",
+        "location": "Video 1",
+        "start": "1/7/2023 3:00 PM",
+        "end": "1/7/2023 5:00 PM",
+        "description": "This is the description text for Entertainment 7.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 8",
+        "location": "Video 1",
+        "start": "1/7/2023 5:30 PM",
+        "end": "1/7/2023 7:30 PM",
+        "description": "This is the description text for Entertainment 8.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 9",
+        "location": "Video 2",
+        "start": "1/7/2023 3:30 PM",
+        "end": "1/7/2023 5:30 PM",
+        "description": "This is the description text for Entertainment 9.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 10",
+        "location": "Video 2",
+        "start": "1/7/2023 6:00 PM",
+        "end": "1/7/2023 8:30 PM",
+        "description": "This is the description text for Entertainment 10.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 11",
+        "location": "Video 3",
+        "start": "1/7/2023 2:30 PM",
+        "end": "1/7/2023 4:30 PM",
+        "description": "This is the description text for Entertainment 11.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Entertainment 12",
+        "location": "Video 3",
+        "start": "1/7/2023 5:30 PM",
+        "end": "1/7/2023 8:30 PM",
+        "description": "This is the description text for Entertainment 12.",
+        "host": "Joe Schmoe",
+        "category": "Video"
+      },
+      {
+        "name": "Meet and Greet 2",
+        "location": "Meet Ups",
+        "start": "1/7/2023 1:30 PM",
+        "end": "1/7/2023 5:30 PM",
+        "description": "This is the description text for Meet and Greet 2.",
+        "host": "Joe Schmoe",
+        "category": "Meet Up"
+      }
+    ]
+  }
+}
