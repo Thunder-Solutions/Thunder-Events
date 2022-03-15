@@ -90,6 +90,8 @@ Read more in the [documentation](https://github.com/thunder-solutions/thunder-ev
 
 This project will soon expand to encompass more concerns of event organizing, such as managing tickets and check-in, and easy integration with a Thunder Solutions hosting service.
 
+In addition to the native web components, we plan to add options for React, Vue, and possibly more.
+
 ## Maintainers
 
 [@jonathandewitt-dev](https://github.com/jonathandewitt-dev)
