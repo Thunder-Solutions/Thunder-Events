@@ -1,7 +1,9 @@
 import * as Exports from '../lib/exports'
 import * as Components from '../lib/uiComponents'
 
-export default {
+const allExports = {
   ...Exports,
   Components,
 }
+
+export default allExports
