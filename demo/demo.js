@@ -1,6 +1,7 @@
 import ThunderEvents from '../esm/thunderEvents.min.mjs'
+import ProgramGuideNative from '../esm/components/programGuideNative.min.mjs'
 
-customElements.define('program-guide', ThunderEvents.Components.ProgramGuideNative)
+customElements.define('program-guide', ProgramGuideNative)
 
 ThunderEvents.init(async () => {
   const response = await fetch('/getDemoEvent')

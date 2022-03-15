@@ -1,4 +1,4 @@
-const DEFAULT_FLOOR_PLAN = {
+'use strict';const DEFAULT_FLOOR_PLAN = {
   title: 'Venue',
   imageSrc: '',
   dimensions: {
@@ -425,4 +425,4 @@ const getFavorites = async () => {
   const state = getState();
   const favorites = await state.getFavorites();
   return favorites;
-};var Exports=/*#__PURE__*/Object.freeze({__proto__:null,init:init,addFavorite:addFavorite,removeFavorite:removeFavorite,getFavorites:getFavorites,getEvents:getEvents,getLocations:getLocations,getTimes:getTimes,getFloorPlan:getFloorPlan});export{Exports as default};//# sourceMappingURL=thunderEvents.min.mjs.map
+};var Exports=/*#__PURE__*/Object.freeze({__proto__:null,init:init,addFavorite:addFavorite,removeFavorite:removeFavorite,getFavorites:getFavorites,getEvents:getEvents,getLocations:getLocations,getTimes:getTimes,getFloorPlan:getFloorPlan});module.exports=Exports;
