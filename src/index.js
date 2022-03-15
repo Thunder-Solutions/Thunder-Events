@@ -1,9 +1,3 @@
-import * as Exports from '../lib/exports'
-import * as Components from '../lib/uiComponents'
+import { Exports } from '../lib/exports'
 
-const allExports = {
-  ...Exports,
-  Components,
-}
-
-export default allExports
+export default Exports
