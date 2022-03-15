@@ -78,11 +78,6 @@ As far as theming goes, there are plenty of custom css properties which can be o
 --color-tertiary: midnightblue;
 --color-tertiary-contrast: white;
 ```
-If you'd rather start completely from scratch, there's an option to pass an entirely new stylesheet to replace it.  Remember that all of these styles will be encapsulated in the Shadow DOM from within the component.  For example, in JSX:
-```jsx
-<program-guide data-css={stylesheet}></program-guide>
-```
-BEWARE: Some styles are important to make some features behave expectedly.  You'll need to be aware of these cases before overriding all the styles.  **We'll soon move these crucial styles to one place so they cannot be overridden.
 
 Read more in the [documentation](https://github.com/thunder-solutions/thunder-events/wiki).
 
