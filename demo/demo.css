@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300;400;600&display=swap');
 
-html { font-size: 10px; }
-body { font-size: 1.6rem; }
+body { font-size: 1rem; }
 
 .demo-title {
   font-family: Fredoka, sans-serif;
@@ -16,6 +15,7 @@ body { font-size: 1.6rem; }
 
 .theme {
   --font: Fredoka, sans-serif;
+  /* --font-size: 2rem; */
   --color-primary: #a6b8c5;
   --color-secondary: #474655;
   --color-tertiary: #242126;
