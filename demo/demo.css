@@ -15,7 +15,7 @@ body { font-size: 1rem; }
 
 .theme {
   --font: Fredoka, sans-serif;
-  /* --font-size: 2rem; */
+  --font-size: 0.8rem;
   --color-primary: #a6b8c5;
   --color-secondary: #474655;
   --color-tertiary: #242126;
