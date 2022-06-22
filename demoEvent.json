@@ -614,6 +614,24 @@
         "description": "This is the description text for Meet and Greet 2.",
         "host": "Joe Schmoe",
         "category": "Meet Up"
+      },
+      {
+        "name": "Meet and Greet 3",
+        "location": "Meet Ups",
+        "start": "1/8/2023 1:30 PM",
+        "end": "1/8/2023 5:30 PM",
+        "description": "This is the description text for Meet and Greet 3.",
+        "host": "Joe Schmoe",
+        "category": "Meet Up"
+      },
+      {
+        "name": "Meet and Greet 4",
+        "location": "Meet Ups",
+        "start": "1/9/2023 1:30 PM",
+        "end": "1/9/2023 5:30 PM",
+        "description": "This is the description text for Meet and Greet 4.",
+        "host": "Joe Schmoe",
+        "category": "Meet Up"
       }
     ]
   }
