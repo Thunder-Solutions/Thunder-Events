@@ -52,11 +52,11 @@
           "alt": "Panel 4"
         },
         {
-          "location": "Panel 6",
+          "location": "Panel 6 (18+)",
           "shape": "rect",
           "coords": [213, 1228, 355, 1330],
-          "href": "#View-Location-Panel-6",
-          "alt": "Panel 6"
+          "href": "#View-Location-Panel-6-18",
+          "alt": "Panel 6 (18+)"
         },
         {
           "location": "Video 1",
@@ -95,7 +95,7 @@
       "Panel 3",
       "Panel 4",
       "Panel 5",
-      "Panel 6",
+      "Panel 6 (18+)",
       "Video 1",
       "Video 2",
       "Video 3",
@@ -518,7 +518,7 @@
       },
       {
         "name": "Content 36",
-        "location": "Panel 6",
+        "location": "Panel 6 (18+)",
         "start": "1/7/2023 2:00 PM",
         "end": "1/7/2023 3:00 PM",
         "description": "This is the description text for Content 36.",
@@ -527,7 +527,7 @@
       },
       {
         "name": "Content 37",
-        "location": "Panel 6",
+        "location": "Panel 6 (18+)",
         "start": "1/7/2023 3:30 PM",
         "end": "1/7/2023 4:30 PM",
         "description": "This is the description text for Content 37.",
@@ -536,7 +536,7 @@
       },
       {
         "name": "Content 38",
-        "location": "Panel 6",
+        "location": "Panel 6 (18+)",
         "start": "1/7/2023 5:00 PM",
         "end": "1/7/2023 6:00 PM",
         "description": "This is the description text for Content 38.",
@@ -545,7 +545,7 @@
       },
       {
         "name": "Content 39",
-        "location": "Panel 6",
+        "location": "Panel 6 (18+)",
         "start": "1/7/2023 6:30 PM",
         "end": "1/7/2023 7:30 PM",
         "description": "This is the description text for Content 39.",
