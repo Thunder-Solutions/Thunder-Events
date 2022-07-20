@@ -103,7 +103,7 @@
     ], 
     "events": [
       {
-        "name": "Featured Act 1",
+        "name": "Featured Act 1 - The really extra long name edition 5000, starring Jimmy Joe Bob, played by John Cena",
         "location": "Main Events",
         "start": "1/6/2023 2:00 PM",
         "end": "1/6/2023 6:00 PM",
@@ -139,10 +139,10 @@
         "category": "Featured Event"
       },
       {
-        "name": "Content 1",
+        "name": "Content 1 - The really extra long name edition 5000, starring Jimmy Joe Bob, played by John Cena",
         "location": "Panel 1",
         "start": "1/6/2023 3:00 PM",
-        "end": "1/6/2023 4:00 PM",
+        "end": "1/6/2023 3:30 PM",
         "description": "This is the description text for Content 1.",
         "host": "Joe Schmoe",
         "category": "Panel"
@@ -184,7 +184,7 @@
         "category": "Panel"
       },
       {
-        "name": "Content 6",
+        "name": "Content 6 - The really extra long name edition 5000, starring Jimmy Joe Bob, played by John Cena",
         "location": "Panel 2",
         "start": "1/6/2023 3:30 PM",
         "end": "1/6/2023 4:30 PM",
