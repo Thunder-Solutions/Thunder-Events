@@ -1,6 +1,6 @@
 {
   "name": "@thundersolutions/events",
-  "version": "0.4.9",
+  "version": "0.4.10",
   "description": "A package for all event planning needs.",
   "main": "dist/thunderEvents.min.js",
   "module": "esm/thunderEvents.min.mjs",
