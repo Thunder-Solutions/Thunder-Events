@@ -1,12 +1,12 @@
 {
-  "name": "@thundersolutions/events",
-  "version": "1.1.8",
+  "name": "thunder-events",
+  "version": "0.0.0",
   "description": "A package for all event planning needs.",
   "main": "dist/thunderEvents.min.js",
   "module": "esm/thunderEvents.min.mjs",
   "scripts": {
     "build": "rollup --config --exports default",
-    "start": "node demoServer.js"
+    "start": "node demo/server.js"
   },
   "repository": {
     "type": "git",
