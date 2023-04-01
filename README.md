@@ -17,14 +17,14 @@ This package allows you to cover event scheduling and more as built-in features 
 ## Install
 
 ```
-npm i @thundersolutions/events
+npm i thunder-events
 ```
 
 ## Usage
 
 The main object is a default export.
 ```js
-import ThunderEvents from '@thundersolutions/events'
+import ThunderEvents from 'thunder-events'
 ```
 
 There are two major steps to get your most basic needs up and running fast:
