@@ -6,7 +6,7 @@
   "module": "esm/thunderEvents.min.mjs",
   "scripts": {
     "build": "rollup --config --exports default",
-    "start": "node demoServer.js"
+    "start": "node demo/server.js"
   },
   "repository": {
     "type": "git",
