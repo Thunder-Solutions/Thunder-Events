@@ -3,7 +3,7 @@
     "rollOverTime": "2:00 AM",
     "floorPlan": {
       "title": "Demo Inn",
-      "imageSrc": "/fake-venue.jpg",
+      "imageSrc": "/demo/fake-venue.jpg",
       "dimensions": {
         "height": 1342,
         "width": 800
