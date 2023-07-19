@@ -603,6 +603,16 @@
         "category": "Panel"
       },
       {
+        "id": 60,
+        "name": "Content 40",
+        "location": "Panel 1",
+        "start": "7/23/2022 12:00 AM",
+        "end": "7/23/2022 2:00 AM",
+        "description": "This is the description text for Content 40.",
+        "host": "Joe Schmoe",
+        "category": "Panel"
+      },
+      {
         "id": 51,
         "name": "Entertainment 7",
         "location": "Video 1",
