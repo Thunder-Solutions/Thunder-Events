@@ -1,38 +1,21 @@
 {
-  "name": "thunder-events",
-  "version": "0.3.3",
-  "description": "A package for all event planning needs.",
-  "main": "dist/thunderEvents.min.js",
-  "module": "esm/thunderEvents.min.mjs",
+  "name": "vite-template-solid",
+  "version": "0.0.0",
+  "description": "",
   "scripts": {
-    "build": "rollup --config --exports default",
-    "start": "node demo/server.js"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/thunder-solutions/thunder-events.git"
-  },
-  "keywords": [
-    "events",
-    "planning",
-    "schedule",
-    "registration",
-    "ticketing"
-  ],
-  "author": "Jonathan DeWitt",
   "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/thunder-solutions/thunder-events/issues"
-  },
-  "homepage": "https://github.com/thunder-solutions/thunder-events#readme",
   "devDependencies": {
-    "@rollup/plugin-node-resolve": "^13.1.3",
-    "express": "^4.17.3",
-    "rollup": "^2.68.0",
-    "rollup-plugin-sourcemaps": "^0.6.3",
-    "rollup-plugin-terser": "^7.0.2"
+    "solid-devtools": "^0.27.3",
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9",
+    "vite-plugin-solid": "^2.7.0"
   },
   "dependencies": {
-    "dialog-polyfill": "^0.5.6"
+    "solid-js": "^1.7.6"
   }
 }
