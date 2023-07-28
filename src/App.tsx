@@ -1,25 +1,29 @@
 import type { Component } from 'solid-js';
-
-import logo from './logo.svg';
-import styles from './App.module.css';
+import Menu from './components/menuBar/menuBar';
+import css from './App.module.css';
+import TimeHeader from './components/timeHeader/timeHeader';
+import TimeBlock from './components/timeBlock/timeBlock';
+import Event from './components/event/event';
+import NavBar from './components/navBar/navBar';
 
 const App: Component = () => {
   return (
-    <div class={styles.App}>
-      <header class={styles.header}>
-        <img src={logo} class={styles.logo} alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          class={styles.link}
-          href="https://github.com/solidjs/solid"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Solid
-        </a>
-      </header>
+    <div class={css.schedule}>
+      <Menu />
+      <TimeHeader />
+      <div class={css.scheduleBody}>
+        <TimeBlock time="2:00">
+          <Event />
+          <Event />
+          <Event />
+        </TimeBlock>
+        <TimeBlock time="4:00">
+          <Event />
+          <Event />
+          <Event />
+        </TimeBlock>
+      </div>
+      <NavBar />
     </div>
   );
 };
