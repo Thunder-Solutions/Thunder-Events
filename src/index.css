@@ -1,8 +1,17 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+:root {
+  --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
+  --color-site-1: #252525;
+  --color-site-1-c: #fff;
+  --color-site-2: #343235;
+  --color-accent-1: #D5A0FF;
+  --color-accent-2: #9F98AB;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
