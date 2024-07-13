@@ -1,0 +1,8 @@
+.icon {
+	height: 1em;
+	width: 1em;
+	display: inline-flex;
+	place-items: center;
+	place-content: center;
+	vertical-align: middle;
+}
