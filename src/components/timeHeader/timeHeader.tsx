@@ -10,6 +10,6 @@ const TimeHeader: Component = () => {
 			<button>View by Location</button>
 		</header>
 	);
-}
+};
 
 export default TimeHeader;

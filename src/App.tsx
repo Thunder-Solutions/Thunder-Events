@@ -7,25 +7,25 @@ import Event from './components/event/event';
 import NavBar from './components/navBar/navBar';
 
 const App: Component = () => {
-  return (
-    <div class={css.schedule}>
-      <Menu />
-      <TimeHeader />
-      <div class={css.scheduleBody}>
-        <TimeBlock time="2:00">
-          <Event />
-          <Event />
-          <Event />
-        </TimeBlock>
-        <TimeBlock time="4:00">
-          <Event />
-          <Event />
-          <Event />
-        </TimeBlock>
-      </div>
-      <NavBar />
-    </div>
-  );
+	return (
+		<div class={css.schedule}>
+			<Menu />
+			<TimeHeader />
+			<div class={css.scheduleBody}>
+				<TimeBlock time="2:00">
+					<Event />
+					<Event />
+					<Event />
+				</TimeBlock>
+				<TimeBlock time="4:00">
+					<Event />
+					<Event />
+					<Event />
+				</TimeBlock>
+			</div>
+			<NavBar />
+		</div>
+	);
 };
 
 export default App;

@@ -11,6 +11,6 @@ const NavBar: Component = () => {
 			<button>Favorites</button>
 		</menu>
 	);
-}
+};
 
 export default NavBar;
