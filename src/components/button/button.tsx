@@ -10,13 +10,15 @@ export type ButtonProps = {
 	category?: 'menu' | 'nav' | 'action';
 	title?: string;
 	active?: boolean;
+	onClick?: GlobalEventHandlers['onclick'];
 };
 
 const Button: Component<ButtonProps> = (props) => {
 	const category = props.category ?? 'action';
 	const activeClass = isDefined(props.active) ? css.active : '';
+	const clickHandler = props.onClick ?? (() => {});
 	return (
-		<button class={`${css.button} ${css[category]} ${activeClass}`} title={props.title}>
+		<button class={`${css.button} ${css[category]} ${activeClass}`} title={props.title} onClick={clickHandler}>
 			{category === 'nav' ? <span>{props.children}</span> : <></>}
 			{props.icon ? <Icon icon={props.icon} class={`${css.buttonIcon} ${props.iconClass ?? ''}`} /> : <></>}
 			{category !== 'nav' ? <span>{props.children}</span> : <></>}

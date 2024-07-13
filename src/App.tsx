@@ -1,4 +1,4 @@
-import { createSignal, type Component } from 'solid-js';
+import { type Component } from 'solid-js';
 import Menu from './components/menuBar/menuBar';
 import css from './App.module.css';
 import NavBar from './components/navBar/navBar';
@@ -11,7 +11,7 @@ const App: Component = () => {
 			<div class={css.schedule}>
 				<Menu />
 				<div class={css.scheduleBody}>
-					<Router route={router.route()} />
+					<Router />
 				</div>
 				<NavBar />
 			</div>

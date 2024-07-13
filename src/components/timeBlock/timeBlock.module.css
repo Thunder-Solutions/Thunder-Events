@@ -8,3 +8,9 @@
 	margin: 0;
 	text-align: center;
 }
+
+.events {
+	display: grid;
+	gap: 0.2em;
+	padding: 0 0.2em;
+}
