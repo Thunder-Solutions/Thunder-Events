@@ -5,6 +5,7 @@ import Calendar from './svg/calendar.svg';
 import ClockMagnifier from './svg/clock-magnifier.svg';
 import Clock from './svg/clock.svg';
 import ClosedEye from './svg/closed-eye.svg';
+import Crosshairs from './svg/crosshairs.svg';
 import Eye from './svg/eye.svg';
 import LeftArrowCircle from './svg/left-arrow-circle.svg';
 import LeftTriangle from './svg/left-triangle.svg';
@@ -24,6 +25,7 @@ const icons = {
 	'clock-magnifier': ClockMagnifier,
 	'clock': Clock,
 	'closed-eye': ClosedEye,
+	'crosshairs': Crosshairs,
 	'eye': Eye,
 	'left-arrow-circle': LeftArrowCircle,
 	'left-triangle': LeftTriangle,

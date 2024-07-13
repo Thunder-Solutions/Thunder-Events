@@ -1,13 +1,13 @@
 import type { Component } from 'solid-js';
-
 import css from './event.module.css';
+import Button from '../button/button';
 
 const Event: Component = () => {
 	return (
 		<article class={css.event}>
 			<header>
 				<h3>Location Name</h3>
-				<button>Show on map</button>
+				<Button icon="crosshairs">Show on map</Button>
 			</header>
 			<header>
 				<h3>Event Name</h3>

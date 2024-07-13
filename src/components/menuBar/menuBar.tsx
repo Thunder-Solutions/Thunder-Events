@@ -1,6 +1,6 @@
 import type { Component } from 'solid-js';
-import Button from '../button/button';
 import css from './menuBar.module.css';
+import Button from '../button/button';
 
 const Menu: Component = () => {
 	return (

@@ -4,10 +4,15 @@
 	border: 0 solid;
 	cursor: pointer;
 	gap: 0.2em;
+	box-sizing: border-box;
+	font-size: 0.7em;
+	grid-template-columns: minmax(0, 1fr);
+	height: 4em;
+	width: 4.5em;
 }
 
 .buttonIcon {
-	font-size: 3em;
+	font-size: 2em;
 	align-self: end;
 }
 
@@ -17,16 +22,19 @@
 }
 
 .button.action .buttonIcon {
-	font-size: 2em;
+	font-size: 1.5em;
 }
 
 .button.nav {
 	background-color: transparent;
 	color: var(--color-accent-2);
+	height: 6em;
+	width: 6em;
 }
 
 .button.nav .buttonIcon {
 	align-self: start;
+	font-size: 4em;
 }
 
 .button.nav.active {
@@ -37,6 +45,4 @@
 	background-color: var(--color-site-2);
 	color: var(--color-site-1-c);
 	border-radius: 0.3em;
-	height: 5em;
-	width: 5em;
 }

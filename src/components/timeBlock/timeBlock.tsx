@@ -1,5 +1,4 @@
 import type { Component, ParentProps } from 'solid-js';
-
 import css from './timeBlock.module.css';
 
 type TimeBlockProps = {
