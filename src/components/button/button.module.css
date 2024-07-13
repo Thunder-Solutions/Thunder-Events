@@ -1,0 +1,42 @@
+.button {
+	display: grid;
+	justify-items: center;
+	border: 0 solid;
+	cursor: pointer;
+	gap: 0.2em;
+}
+
+.buttonIcon {
+	font-size: 3em;
+	align-self: end;
+}
+
+.button.action {
+	background-color: transparent;
+	color: var(--color-accent-1);
+}
+
+.button.action .buttonIcon {
+	font-size: 2em;
+}
+
+.button.nav {
+	background-color: transparent;
+	color: var(--color-accent-2);
+}
+
+.button.nav .buttonIcon {
+	align-self: start;
+}
+
+.button.nav.active {
+	color: var(--color-accent-1);
+}
+
+.button.menu {
+	background-color: var(--color-site-2);
+	color: var(--color-site-1-c);
+	border-radius: 0.3em;
+	height: 5em;
+	width: 5em;
+}

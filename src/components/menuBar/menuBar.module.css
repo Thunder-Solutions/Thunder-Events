@@ -1,6 +1,16 @@
 .menu {
 	display: grid;
 	grid-template-columns: repeat(4, minmax(0, 1fr));
+	padding: 0.2em;
+}
+
+.menuBtn {
+	display: grid;
+	justify-items: center;
+}
+
+.menuIcon {
+	font-size: 2em;
 }
 
 .dateContainer {

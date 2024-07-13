@@ -1,11 +1,13 @@
 import type { Component } from 'solid-js';
-
+import Button from '../button/button';
 import css from './menuBar.module.css';
 
 const Menu: Component = () => {
 	return (
 		<header class={css.menu}>
-			<button>Menu</button>
+			<Button icon="bars" category="menu">
+				Menu
+			</Button>
 			<menu style="display: none;">menu placeholder</menu>
 			<label style="display: none;">
 				Search
@@ -13,12 +15,16 @@ const Menu: Component = () => {
 			</label>
 			<div class={css.dateContainer}>
 				<time datetime="2023-07-27">Thursday 7/27/2023</time>
-				<button>Choose Date</button>
+				<Button icon="calendar">Choose Date</Button>
 			</div>
-			<button>Search</button>
-			<button>Restore</button>
+			<Button icon="magnifier" category="menu">
+				Search
+			</Button>
+			<Button icon="stacked-windows" category="menu">
+				Restore
+			</Button>
 		</header>
 	);
-}
+};
 
 export default Menu;
