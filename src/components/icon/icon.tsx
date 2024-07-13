@@ -16,6 +16,7 @@ import Pin from './svg/pin.svg';
 import Printer from './svg/printer.svg';
 import RightTriangle from './svg/right-triangle.svg';
 import StackedWindows from './svg/stacked-windows.svg';
+import StarOutline from './svg/star-outline.svg';
 import Star from './svg/star.svg';
 import XCircle from './svg/x-circle.svg';
 
@@ -36,6 +37,7 @@ const icons = {
 	'printer': Printer,
 	'right-triangle': RightTriangle,
 	'stacked-windows': StackedWindows,
+	'star-outline': StarOutline,
 	'star': Star,
 	'x-circle': XCircle,
 } as const;
