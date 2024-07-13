@@ -1,20 +1,12 @@
 import { type Component } from 'solid-js';
-import Menu from './components/menuBar/menuBar';
-import css from './App.module.css';
-import NavBar from './components/navBar/navBar';
-import Router, { createRouteContext, RouteContext } from './router';
+import { createRouteContext, RouteContext } from './router';
+import Page from './components/page/page';
 
 const App: Component = () => {
 	const router = createRouteContext();
 	return (
 		<RouteContext.Provider value={router}>
-			<div class={css.schedule}>
-				<Menu />
-				<div class={css.scheduleBody}>
-					<Router />
-				</div>
-				<NavBar />
-			</div>
+			<Page />
 		</RouteContext.Provider>
 	);
 };
