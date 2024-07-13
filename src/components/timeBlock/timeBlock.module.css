@@ -1,2 +1,10 @@
 .timeBlock {
+	padding-top: 1em;
+}
+
+.time {
+	font-size: 1.5em;
+	font-weight: normal;
+	margin: 0;
+	text-align: center;
 }

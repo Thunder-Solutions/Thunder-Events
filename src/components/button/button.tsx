@@ -18,7 +18,7 @@ const Button: Component<ButtonProps> = (props) => {
 	return (
 		<button class={`${css.button} ${css[category]} ${activeClass}`} title={props.title}>
 			{category === 'nav' ? <span>{props.children}</span> : <></>}
-			{props.icon ? <Icon icon={props.icon} class={`${css.buttonIcon} ${props.iconClass}`} /> : <></>}
+			{props.icon ? <Icon icon={props.icon} class={`${css.buttonIcon} ${props.iconClass ?? ''}`} /> : <></>}
 			{category !== 'nav' ? <span>{props.children}</span> : <></>}
 		</button>
 	);

@@ -1,3 +1,79 @@
 .event {
 	display: grid;
+	grid-template-columns: auto minmax(0, 1fr);
+	padding: 0.2em;
+	gap: 0.2em;
+}
+
+.locationHeader {
+	display: grid;
+	grid-template-rows: auto minmax(0, 1fr);
+	justify-items: center;
+	padding: 0.5em 0;
+}
+
+.locationNameWrapper {
+	padding-top: 0.5em;
+}
+
+.locationName {
+	font-size: 1em;
+	font-weight: normal;
+	margin: 0;
+	writing-mode: vertical-lr;
+	transform: rotate(180deg);
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.locationHeader,
+.eventBody {
+	border: 0 solid;
+	border-radius: 0.3em;
+	background-color: var(--color-site-2);
+}
+
+.eventBody {
+	padding: 1em;
+}
+
+.eventHeader {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) auto;
+	align-items: start;
+}
+
+.eventHost,
+.eventCategory {
+	font-size: 0.8em;
+	font-weight: normal;
+	margin: 0;
+	color: var(--color-site-1-c-2);
+}
+
+.eventHostLabel,
+.eventCategoryLabel {
+	font-weight: bold;
+}
+
+.eventName {
+	margin: 0;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+
+.eventDescription {
+	padding: 1em;
+	margin: 0;
+	color: var(--color-site-1-c-2);
+	font-style: italic;
+	font-weight: 200;
+}
+
+.readMore {
+	display: block;
+	text-align: right;
+	color: var(--color-site-1-c-2);
+	font-weight: 200;
 }

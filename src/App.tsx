@@ -1,30 +1,21 @@
-import type { Component } from 'solid-js';
+import { createSignal, type Component } from 'solid-js';
 import Menu from './components/menuBar/menuBar';
 import css from './App.module.css';
-import TimeHeader from './components/timeHeader/timeHeader';
-import TimeBlock from './components/timeBlock/timeBlock';
-import Event from './components/event/event';
 import NavBar from './components/navBar/navBar';
+import Router, { createRouteContext, RouteContext } from './router';
 
 const App: Component = () => {
+	const router = createRouteContext();
 	return (
-		<div class={css.schedule}>
-			<Menu />
-			<TimeHeader />
-			<div class={css.scheduleBody}>
-				<TimeBlock time="2:00">
-					<Event />
-					<Event />
-					<Event />
-				</TimeBlock>
-				<TimeBlock time="4:00">
-					<Event />
-					<Event />
-					<Event />
-				</TimeBlock>
+		<RouteContext.Provider value={router}>
+			<div class={css.schedule}>
+				<Menu />
+				<div class={css.scheduleBody}>
+					<Router route={router.route()} />
+				</div>
+				<NavBar />
 			</div>
-			<NavBar />
-		</div>
+		</RouteContext.Provider>
 	);
 };
 

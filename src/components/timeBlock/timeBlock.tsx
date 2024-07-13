@@ -8,7 +8,7 @@ type TimeBlockProps = {
 const TimeBlock: Component<TimeBlockProps> = ({ children, time }) => {
 	return (
 		<header class={css.timeBlock}>
-			<h2>{time}</h2>
+			<h2 class={css.time}>{time}</h2>
 			{children}
 		</header>
 	);
