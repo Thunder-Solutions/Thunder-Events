@@ -1,9 +1,5 @@
-.schedule {
-	display: grid;
-	grid-template-rows: auto minmax(0, 1fr) auto;
-	background-color: var(--color-site-1);
-	color: var(--color-site-1-c);
-	height: 100%;
+.page {
+	/* theme */
 	--font: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans',
 		'Droid Sans', 'Helvetica Neue', sans-serif;
 	--color-site-1: #252525;
@@ -13,11 +9,20 @@
 	--color-site-2: #343235;
 	--color-accent-1: #d5a0ff;
 	--color-accent-2: #9f98ab;
+	--color-accent-2-c: #252525;
+
+	/* layout */
+	display: grid;
+	grid-template-rows: auto minmax(0, 1fr) auto;
+	background-color: var(--color-site-1);
+	color: var(--color-site-1-c);
+	height: 100%;
 	font-family: var(--font);
 	font-size: 1em;
+	overflow: hidden;
 }
 
-.scheduleBody {
+.body {
 	overflow: auto;
 	position: relative;
 }

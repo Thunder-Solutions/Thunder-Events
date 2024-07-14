@@ -11,6 +11,7 @@ export type ButtonProps = {
 	title?: string;
 	active?: boolean;
 	onClick?: GlobalEventHandlers['onclick'];
+	type?: HTMLButtonElement['type'];
 };
 
 const Button: Component<ButtonProps> = (props) => {
@@ -18,7 +19,12 @@ const Button: Component<ButtonProps> = (props) => {
 	const activeClass = isDefined(props.active) ? css.active : '';
 	const clickHandler = props.onClick ?? (() => {});
 	return (
-		<button class={`${css.button} ${css[category]} ${activeClass}`} title={props.title} onClick={clickHandler}>
+		<button
+			class={`${css.button} ${css[category]} ${activeClass}`}
+			title={props.title}
+			type={props.type}
+			onClick={clickHandler}
+		>
 			{category === 'nav' ? <span>{props.children}</span> : <></>}
 			{props.icon ? <Icon icon={props.icon} class={`${css.buttonIcon} ${props.iconClass ?? ''}`} /> : <></>}
 			{category !== 'nav' ? <span>{props.children}</span> : <></>}

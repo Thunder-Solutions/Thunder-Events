@@ -6,9 +6,9 @@ import Router from '../../router';
 
 const Page: Component = () => {
 	return (
-		<div class={css.schedule}>
+		<div class={css.page}>
 			<Menu />
-			<div class={css.scheduleBody}>
+			<div class={css.body}>
 				<Router />
 			</div>
 			<NavBar />
