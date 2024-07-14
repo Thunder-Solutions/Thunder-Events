@@ -3,33 +3,56 @@ import css from './menuBar.module.css';
 import Button from '../button/button';
 
 const Menu: Component = () => {
-	const [searching, setSearching] = createSignal(false);
+	return (
+		<menu class={css.menu}>
+			<li></li>
+		</menu>
+	);
+};
+
+const MenuBar: Component = () => {
+	const [menuVisible, setMenuVisible] = createSignal(false);
+	const [searchVisible, setSearchVisible] = createSignal(false);
 	const [searchInput, setSearchInput] = createSignal<HTMLInputElement>();
 	const handlers = {
+		openMenu: () => {
+			setMenuVisible(true);
+		},
+		closeMenu: () => {
+			setMenuVisible(false);
+		},
 		openSearch: () => {
-			setSearching(true);
+			setSearchVisible(true);
 			searchInput()?.focus();
 		},
 		closeSearch: () => {
-			setSearching(false);
+			setSearchVisible(false);
 		},
 		search: (event: SubmitEvent) => {
 			event.preventDefault();
 			const target = event.target as HTMLFormElement;
 			const formData = new FormData(target);
 			const search = formData.get('search') as string;
-			if (search.trim() === '') {
-				return;
-			}
+			if (search.trim() === '') return;
 			console.log(formData.get('search'));
 		},
 	};
 	return (
-		<header class={css.menu}>
-			<Button icon="bars" category="menu">
+		<header class={css.menuBar}>
+			<Button icon="bars" category="menu" onClick={handlers.openMenu}>
 				Menu
 			</Button>
-			<menu style="display: none;">menu placeholder</menu>
+			<section class={css.menuSection} inert={!menuVisible() || undefined}>
+				<div class={css.menuHeader}>
+					<header>
+						<h1 class={css.menuHeading}>Spring Fest</h1>
+					</header>
+					<Button icon="x-circle" category="menu" onClick={handlers.closeMenu}>
+						Close
+					</Button>
+				</div>
+				<Menu />
+			</section>
 			<div class={css.dateWrapper}>
 				<div class={css.dateContainer}>
 					<time datetime="2023-07-27">
@@ -47,8 +70,7 @@ const Menu: Component = () => {
 				class={css.searchForm}
 				onSubmit={handlers.search}
 				onKeyDown={(event) => event.key === 'Escape' && handlers.closeSearch()}
-				inert={!searching() || undefined}
-				aria-hidden={!searching()}
+				inert={!searchVisible() || undefined}
 			>
 				<label class={css.search}>
 					<input placeholder="Search events..." name="search" class={css.searchInput} ref={setSearchInput} />
@@ -67,4 +89,4 @@ const Menu: Component = () => {
 	);
 };
 
-export default Menu;
+export default MenuBar;

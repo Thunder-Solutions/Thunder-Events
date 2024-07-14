@@ -1,4 +1,4 @@
-.menu {
+.menuBar {
 	display: grid;
 	grid-template-columns: auto minmax(0, 1fr) auto auto;
 	gap: 0.2em;
@@ -49,15 +49,62 @@
 	padding: 0.2em;
 	box-sizing: border-box;
 }
+
 .searchForm {
 	position: absolute;
 	top: 0;
 	left: 0;
 	transform: translateY(0);
 	transition: transform 0.2s;
+	z-index: 2;
 }
-.searchForm[aria-hidden='true'] {
+
+.searchForm[inert] {
 	transform: translateY(-100%);
+}
+
+.menuSection {
+	position: absolute;
+	top: 0;
+	left: 0;
+	transform: translateX(0);
+	height: 100vh;
+	width: calc(100vw - 3.5em);
+	background-color: var(--color-site-1);
+	box-shadow: 0.2em 0 1em rgba(0, 0, 0, 0.5);
+	border: 0 solid;
+	border-top-right-radius: 0.3em;
+	border-bottom-right-radius: 0.3em;
+	border-right: 0.15em solid var(--color-site-2);
+	overflow: hidden;
+	z-index: 2;
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.menuSection[inert] {
+	transform: translateX(-100%);
+	box-shadow: 0.2em 0 1em transparent;
+}
+
+.menuHeader {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 0.5em;
+	background-color: var(--color-site-2);
+}
+
+.menuHeading {
+	margin: 0;
+	font-size: 1.2em;
+	font-weight: bold;
+}
+
+.menu,
+.menu li {
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 .searchInput {
