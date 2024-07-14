@@ -63,7 +63,7 @@
 	transform: translateY(-100%);
 }
 
-.menuSection {
+.mainMenuSection {
 	position: absolute;
 	top: 0;
 	left: 0;
@@ -81,12 +81,12 @@
 	transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.menuSection[inert] {
+.mainMenuSection[inert] {
 	transform: translateX(-100%);
 	box-shadow: 0.2em 0 1em transparent;
 }
 
-.menuHeader {
+.mainMenuHeader {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
@@ -94,7 +94,7 @@
 	background-color: var(--color-site-2);
 }
 
-.menuHeading {
+.mainMenuHeading {
 	margin: 0;
 	font-size: 1.2em;
 	font-weight: bold;
@@ -105,6 +105,31 @@
 	list-style: none;
 	margin: 0;
 	padding: 0;
+}
+
+.menu {
+	display: grid;
+	gap: 0.12em;
+}
+
+.menuItem {
+	background-color: var(--color-site-2);
+	display: flex;
+	gap: 0.5em;
+	padding: 0.5em 2em;
+	width: 100%;
+	font-size: 1em;
+	align-items: center;
+	box-sizing: border-box;
+}
+
+.menuItem.location:not(.active) {
+	color: var(--color-accent-2);
+}
+
+.menuItemIcon {
+	color: var(--color-accent-2);
+	font-size: 2em;
 }
 
 .searchInput {
@@ -120,4 +145,31 @@
 .searchInput::placeholder {
 	color: var(--color-accent-2-c);
 	font-style: italic;
+}
+
+.menuSection {
+	padding-top: 2em;
+}
+
+.timeInput {
+	background-color: var(--color-accent-2);
+	color: var(--color-accent-2-c);
+	font-size: 1em;
+	border: 0 solid;
+	border-radius: 0.3rem;
+	padding: 0.2em;
+}
+
+.resetButtonWrapper {
+	display: flex;
+	justify-content: end;
+	flex: 1;
+}
+
+.menuHeading {
+	margin: 0;
+	font-size: 0.8em;
+	font-weight: normal;
+	text-align: center;
+	padding-bottom: 0.5em;
 }

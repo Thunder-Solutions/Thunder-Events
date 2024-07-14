@@ -46,3 +46,14 @@
 	color: var(--color-site-1-c);
 	border-radius: 0.3em;
 }
+
+.button.invisible {
+	all: initial;
+	display: flex;
+	place-content: center;
+	place-items: center;
+	font: inherit;
+	color: inherit;
+	cursor: pointer;
+	width: 100%;
+}
