@@ -69,7 +69,7 @@
 	left: 0;
 	transform: translateX(0);
 	height: 100vh;
-	width: calc(100vw - 3.5em);
+	width: calc(100vw - 1em);
 	background-color: var(--color-site-1);
 	box-shadow: 0.2em 0 1em rgba(0, 0, 0, 0.5);
 	border: 0 solid;
@@ -110,13 +110,14 @@
 .menu {
 	display: grid;
 	gap: 0.12em;
+	grid-template-columns: minmax(0, 1fr);
 }
 
 .menuItem {
 	background-color: var(--color-site-2);
 	display: flex;
 	gap: 0.5em;
-	padding: 0.5em 2em;
+	padding: 0.5em 1em;
 	width: 100%;
 	font-size: 1em;
 	align-items: center;
